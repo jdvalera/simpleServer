@@ -8,7 +8,7 @@ server = BaseHTTPServer.HTTPServer
 handler = CGIHTTPServer.CGIHTTPRequestHandler
 port = 8000
 server_address = ("", 8000)
-handler.cgi_directories = ["/cgi"]
+handler.cgi_directories = ["/cgi-bin"]
  
 httpd = server(server_address, handler)
 print "Starting server..."
