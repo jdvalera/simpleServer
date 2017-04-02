@@ -77,6 +77,6 @@ print "<head>"
 print "<title>Hello - Second CGI Program</title>"
 print "</head>"
 print "<body>"
-print "<h2>Hello %s</h2>" % (q)
+print "<h2>Hello %s</h2>" % (key)
 print "</body>"
 print "</html>"
