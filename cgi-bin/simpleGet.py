@@ -59,17 +59,17 @@ key = form.getvalue('q')
 #last_name  = form.getvalue('last_name')
 if key == "w":
 
-      set_value(54, 1)
-      set_value(55, 1)
-      set_value(56, 1)
-      set_value(57, 1)
+    set_value(54, 1)
+    set_value(55, 1)
+    set_value(56, 1)
+    set_value(57, 1)
 
-    elif key == "s":
+elif key == "s":
 
-      set_value(54, 0)
-      set_value(55, 0)
-      set_value(56, 0)
-      set_value(57, 0)
+    set_value(54, 0)
+    set_value(55, 0)
+    set_value(56, 0)
+    set_value(57, 0)
 
 print "Content-type:text/html\r\n\r\n"
 print "<html>"
