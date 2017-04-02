@@ -1,0 +1,2 @@
+# simpleServer
+Simple Python server
